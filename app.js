@@ -1,7 +1,6 @@
-
+const debug = require('debug')('author');
 const express = require('express');
 const createError = require('http-errors');
-const debug = require('debug')('author');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
